@@ -1,0 +1,19 @@
+{
+  "name": "Jean-Lamarre.github.io",
+  "version": "0.0.1",
+  "description": "Jean Lamarre&#39;s portfolio",
+  "main": "index.js",
+  "authors": {
+    "name": "Jean Lamarre",
+    "email": "jean.lamarre.1@ens.etsmtl.ca"
+  },
+  "repository": "github.com/Jean-Lamarre/Jean-Lamarre.github.io/Jean-Lamarre.github.io",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
