@@ -1,4 +1,5 @@
 module.exports = {
   title: 'Jean Lamarre',
-  description: 'Just playing around'
+  description: 'Just playing around',
+  base:'/'
 }
