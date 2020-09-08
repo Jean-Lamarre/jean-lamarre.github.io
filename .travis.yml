@@ -5,7 +5,7 @@ node_js:
 # whitelist, https://docs.travis-ci.com/user/customizing-the-build/#Safelisting-or-blocklisting-branches
 branches:
   only:
-  - master
+  - production
 
 install:
   - npm install
@@ -19,3 +19,6 @@ deploy:
   github-token: $GITHUB_ACCESS_TOKEN  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
   keep_history: true
   target-branch: master
+  local-dir: docs/.vuepress/dist
+  on:
+    branch: production
