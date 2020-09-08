@@ -1,24 +1,15 @@
-  
 language: node_js
 node_js:
   - lts/*
-# whitelist, https://docs.travis-ci.com/user/customizing-the-build/#Safelisting-or-blocklisting-branches
-branches:
-  only:
-  - production
-
 install:
-  - npm install
-  - npm run docs:build
-
-script: 'true' # Skipping tests, https://docs.travis-ci.com/user/languages/javascript-with-nodejs/#default-build-script
-
+  - yarn install # npm ci
+script:
+  - yarn docs:build # npm run docs:build
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_ACCESS_TOKEN  # Set in travis-ci.org dashboard, marked secure https://docs.travis-ci.com/user/deployment/pages/#Setting-the-GitHub-token
+  skip_cleanup: true
+  local_dir: docs/.vuepress/dist
+  github_token: $GITHUB_TOKEN # A token generated on GitHub allowing Travis to push code on you repository. Set in the Travis settings page of your repository, as a secure variable
   keep_history: true
-  target-branch: master
-  local-dir: docs/.vuepress/dist
   on:
-    branch: production
+    branch: master
