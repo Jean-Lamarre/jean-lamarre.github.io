@@ -20,3 +20,5 @@ deploy:
   keep_history: true
   target-branch: master
   local-dir: docs/.vuepress/dist
+  on:
+    branch: production
