@@ -26,7 +26,7 @@ h1{
 
 h2{
     text-align: center;
-    color: rgba(226, 62, 87, 1);
+    color: rgba(1, 1, 1, 1);
 }
 
 body {
@@ -34,7 +34,7 @@ body {
     overflow: hidden;
     background-color: #5b5c5b;
     background-image:
-            url("Assets/img/bg.jpeg");
+            url("Assets/img/bg_jl.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
