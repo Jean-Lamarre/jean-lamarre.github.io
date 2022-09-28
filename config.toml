@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'fr-CA'
+title = 'Jean Lamarre'
+theme = "spectral"
