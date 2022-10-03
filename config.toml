@@ -131,11 +131,13 @@ text = "Portfolio"
 special = true
 
 [params.contact]
+formspree = "https://formspree.io/f/mqkjbqdp"
 enable = true
 title = "Contact"
 body = "Laissez moi un message"
 email = "jeanlamarredev@outlook.com"
 plain = false
+
 
 [params.social]
 itchio = "https://johnytech6.itch.io/"
