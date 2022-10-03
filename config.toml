@@ -1,4 +1,145 @@
 baseURL = 'https://jean-lamarre.github.io'
-languageCode = 'fr-CA'
+languageCode = 'fr-US'
 title = 'Jean Lamarre'
+paginate = "8"
+defaultContentLanguage = "fr"
 theme = "spectral"
+
+[params]
+fancyTitle = '<img height=256 src="images/PHOTO_DEVOLUTIONS(smol).jpg" /><br />Jean Lamarre'
+copyright = "Jean Lamarre"
+description = 'Site en construction'
+startbuttonText = "Contacter Jean"
+startbuttonLink = "#contact"
+body_is_markdown = true
+
+[[params.menu.main]]
+url = '#'
+title = "Accueil"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "template"
+
+[[params.menu.main]]
+url = '/projets/'
+title = "Projet personnel"
+
+[[params.menu.main]]
+url = '/club/'
+title = "Activité de club"
+
+[[params.menu.main]]
+url = '/personnel/'
+title = "Expérience professionnel"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Bienvenue dans mon portfolio'
+body = '''
+[TODO].
+'''
+
+[[params.one.icon]]
+icon = "fa-laptop"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-gamepad"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+title = 'Project 1<br />2022-01-01'
+body = "[TODO]"
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Project 2<br />2022-01-01'
+body = "[TODO]"
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Project 3<br />2022-01-01'
+body = "[TODO]"
+
+[params.three]
+enable = true
+title = 'Mes motivations'
+body = '''
+[TODO]
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane-o"
+title = "Arcu accumsan"
+body = "[TODO]"
+
+[[params.three.feature]]
+icon = "fa-laptop"
+title = "Ac Augue Eget"
+body = "[TODO]"
+
+[[params.three.feature]]
+icon = "fa-code"
+title = "Foo bar"
+body = "[TODO]"
+
+[[params.three.feature]]
+icon = "fa-headphones"
+title = "Baz kram"
+body = "[TODO]"
+
+[[params.three.feature]]
+icon = "fa-heart-o"
+title = "Some latin text"
+body = "[TODO]"
+
+[[params.three.feature]]
+icon = "fa-flag-o"
+title = "Nothing important"
+body = "[TODO]"
+
+[params.cta]
+enable = true
+title = "Contenu"
+body = "Venez voir mon contenu"
+
+[[params.cta.link]]
+href = "https://www.linkedin.com/in/jean-lamarre/"
+text = "LinkedIn"
+special = true
+
+[[params.cta.link]]
+href = "https://eportfolio.etsmtl.ca/Portfolio/Clef/CpsRdS58ZgNz2X0vM33b"
+text = "Portfolio"
+special = true
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Laissez moi un message"
+email = "jeanlamarredev@outlook.com"
+plain = false
+
+[params.social]
+itchio = "https://johnytech6.itch.io/"
+linkedin = "https://www.linkedin.com/in/jean-lamarre/"
+#facebook = "https://www.facebook.com/ConjureETS"
+#instagram = "https://www.instagram.com/conjure_ets/"
+#ETS = "https://eportfolio.etsmtl.ca/Portfolio/Clef/CpsRdS58ZgNz2X0vM33b"
