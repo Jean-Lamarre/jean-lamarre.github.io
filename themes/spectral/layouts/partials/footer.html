@@ -16,6 +16,9 @@
               {{ with .Site.Params.social.itchio }}
               <li><a href="{{ . }}" class="icon fa-gamepad"><span class="label"></span></a></li>
               {{ end }}
+              {{ with .Site.Params.social.github }}
+              <li><a href="https://github.com/{{ . }}" class="fa fa-github"><span class="label"></span></a></li>
+              {{ end }}
               {{ with .Site.Params.social.linkedin }}
               <li><a href="https://www.linkedin.com/{{ . }}" class="fa fa-linkedin"><span class="label"></span></a></li>
               {{ end }}
@@ -25,7 +28,13 @@
 
 						</ul>
 						<ul class="copyright">
-              <li>&copy; {{ now.Year }} {{.Site.Params.copyright | safeHTML }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+              <li>
+                &copy; {{ now.Year }} {{.Site.Params.copyright | safeHTML }}
+                {{ with .Site.Params.social.githubpages }}
+                <a href="{{ . }}" class="fa fa-github"></a>
+                {{ end }}
+              </li>
+              <li>Design: <a href="https://html5up.net/spectral">HTML5 Spectral</a></li>
 						</ul>
 					</footer>
 

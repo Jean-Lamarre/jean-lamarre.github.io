@@ -11,7 +11,11 @@
 			</header>
 			<ul class="icons major">
         {{ range .icon }}
-        <li><span class="icon {{ .icon }} major style{{ .style }}"><span class="label">{{ .label }}</span></span></li>
+        <li>
+			<span class="icon {{ .icon }} major style{{ .style }}">
+				<span class="label">{{ .label }}</span>
+			</span>
+		</li>
         {{ end }}
 			</ul>
 		</div>

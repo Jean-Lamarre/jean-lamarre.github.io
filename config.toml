@@ -30,7 +30,11 @@ url = '/club/'
 title = "Activité de club"
 
 [[params.menu.main]]
-url = '/personnel/'
+url = '/games/'
+title = "Dev. jeux vidéo"
+
+[[params.menu.main]]
+url = '/professionnel/'
 title = "Expérience professionnel"
 
 [taxonomies]
@@ -40,15 +44,18 @@ title = "Expérience professionnel"
 
 [params.one]
 enable = true
-title = 'Bienvenue dans mon portfolio'
-body = '''
-[TODO].
+title = 'Bienvenue dans mon univers'
+body = '''  
+Étudiant à l'ÉTS, j'ai débuté mon baccalauréat en génie 
+logiciel à l'automne 2019 et j'aspire à devenir un professionnel dynamique,
+motivant et accompli.
 '''
 
 [[params.one.icon]]
 icon = "fa-laptop"
 style = "1"
 label = "Lorem"
+url = "https://github.com/devcows/hugo-universal-theme/issues/127"
 
 [[params.one.icon]]
 icon = "fa-gamepad"
@@ -62,27 +69,34 @@ label = "Dolor"
 
 [params.two]
 enable = true
+title = "Quelques jeux!"
+Button = "Tous les jeux"
+ButtonLink = '/games/'
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-title = 'Project 1<br />2022-01-01'
-body = "[TODO]"
+img = "images/UntitleJanitorGameImg.jpg"
+body = '{{<itchio id = "1484491" square = "false " linkback = "true" dark = "true" color = "2195b2">}}'
+
 
 [[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Project 2<br />2022-01-01'
-body = "[TODO]"
+img = "images/DoggoUntilTomorrowImg.jpg"
+body = '{{<itchio id = "1377807" square = "false " linkback = "true" dark = "true" color = "2195b2">}}'
 
 [[params.two.section]]
-img = "img/pic03.jpg"
-title = 'Project 3<br />2022-01-01'
-body = "[TODO]"
+img = "images/LostRUsImg.jpg"
+body = '{{<itchio id = "932135" square = "false " linkback = "true" dark = "true" color = "2195b2">}}'
+
+[[params.two.section]]
+img = "images/HotCocoImg.jpg"
+#title = 'Project 3<br />2022-01-01'
+body = '{{<itchio id = "757201" square = "false" linkback = "true" dark = "true" color = "2195b2">}}'
 
 [params.three]
 enable = true
 title = 'Mes motivations'
 body = '''
-[TODO]
+Je suis une personne curieuses qui est allumé par le développement de jeux vidéo, 
+environnement et développement durable.
 '''
 
 [[params.three.feature]]
@@ -142,6 +156,8 @@ plain = false
 [params.social]
 itchio = "https://johnytech6.itch.io/"
 linkedin = "https://www.linkedin.com/in/jean-lamarre/"
+githubpages = "https://github.com/Jean-Lamarre/jean-lamarre.github.io"
+github = "https://github.com/Jean-Lamarre"
 #facebook = "https://www.facebook.com/ConjureETS"
 #instagram = "https://www.instagram.com/conjure_ets/"
 #ETS = "https://eportfolio.etsmtl.ca/Portfolio/Clef/CpsRdS58ZgNz2X0vM33b"
