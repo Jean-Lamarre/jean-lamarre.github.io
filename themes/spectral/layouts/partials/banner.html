@@ -4,6 +4,7 @@
     <p>{{ .Site.Params.description | safeHTML }}</p>
     {{ if and .Site.Params.startbuttonText .Site.Params.startbuttonLink }}
 		<ul class="actions special">
+      <li><a href="{{ .Site.Params.CvButtonLink }}" class="button partial" download>{{ .Site.Params.CvButtonText }}</a></li>
       <li><a href="{{ .Site.Params.StartbuttonLink }}" class="button primary">{{ .Site.Params.StartbuttonText }}</a></li>
 		</ul>
     {{ end }}
