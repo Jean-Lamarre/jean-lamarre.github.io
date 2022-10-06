@@ -6,7 +6,7 @@ defaultContentLanguage = "fr"
 theme = "spectral"
 
 [params]
-fancyTitle = '<img height=225 src="images/PHOTO_DEVOLUTIONS(smol).jpg" /><br />Jean Lamarre'
+fancyTitle = '<img height=225 src="images/PHOTO_DEVOLUTIONS(smol).jpg"/><br/>Jean Lamarre'
 copyright = "Jean Lamarre"
 description =  '''
 Étudiant en génie logiciel<br />
@@ -75,19 +75,20 @@ label = "Dolor"
 [params.two]
 enable = true
 title = "Quelques jeux!"
+
 Button = "Tous mes jeux"
 ButtonLink = '/games/'
 
-[[params.two.section]]
-img = "images/UntitleJanitorGameImg.jpg"
-body = '''
+# [[params.two.section]]
+# img = "images/UntitleJanitorGameImg.jpg"
+# body = '''
 
-Vous êtes Sir Géatan de Janitoria et vous devez aider à nettoyer des bureaux!
+# Vous êtes Sir Géatan de Janitoria et vous devez aider à nettoyer des bureaux!
 
-Ce jeu a été fait dans le contexte de projet de classe à l'ÉTS du cours LOG725.
+# Ce jeu a été fait dans le contexte de projet de classe à l'ÉTS du cours LOG725.
 
-{{<itchio id = "1484491" square = "false" linkback = "true" dark = "true" color = "2195b2">}}
-'''
+# {{<itchio id = "1484491" square = "false" linkback = "true" dark = "true" color = "2195b2">}}
+# '''
 
 
 [[params.two.section]]
@@ -176,11 +177,24 @@ href = "https://eportfolio.etsmtl.ca/Portfolio/Clef/CpsRdS58ZgNz2X0vM33b"
 text = "ePortfolio ETS"
 special = true
 
+[[params.cta.link]]
+href = "https://github.com/Jean-Lamarre"
+text = "GitHub"
+special = true
+
+[[params.cta.link]]
+href = "https://johnytech6.itch.io/"
+text = "Itch.io"
+special = true
+
 [params.contact]
 formspree = "https://formspree.io/f/mqkjbqdp"
 enable = true
 title = "Contact"
-body = "Laissez moi un message! Au plaisir de vous rencontrer"
+body = '''
+Laissez-moi un message. Au plaisir de vous rencontrer!\
+jeanlamarredev@outlook.com
+'''
 email = "jeanlamarredev@outlook.com"
 plain = false
 

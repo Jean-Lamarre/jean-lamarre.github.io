@@ -1,29 +1,22 @@
-{{ $md := .Site.Params.body_is_markdown | default false }}
-
-{{ with .Site.Params.two }}
-{{ if .enable }}
+{{ $md := .Site.Params.body_is_markdown | default false }} {{ with
+.Site.Params.two }} {{ if .enable }}
 <section id="two" class="wrapper alt style2">
   <section id="one" class="wrapper style2 special">
-		
-        <h2>{{ .title | safeHTML}}</h2>
-	
-	</section>
+    <h2>{{ .title | safeHTML}}</h2>
+  </section>
   {{ range .section }}
-	<section class="spotlight">
-    <div class="image"><img src="{{ .img | relURL }}" alt="" /></div><div class="content">
+  <section class="spotlight">
+    <div class="image"><img src="{{ .img | relURL }}" alt="" /></div>
+    <div class="content">
       <h2>{{ .title | safeHTML }}</h2>
       {{ partial "body_text.html" (dict "context" . "md" $md) }}
-		</div>
-	</section>
+    </div>
+  </section>
   {{ end }}
-  <p></p>
-  <ul class="content">
+</section>
+  <section class="wrapper style3">
     <ul class="actions special">
       <a href="{{ .ButtonLink }}" class="button partial">{{ .Button }}</a>
     </ul>
-  </ul>
-<h2></h2>
-<p></p>
-
-{{ end }}
-{{ end }}
+  </section>
+  {{ end }} {{ end }}
