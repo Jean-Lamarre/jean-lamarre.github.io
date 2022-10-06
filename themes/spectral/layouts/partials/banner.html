@@ -5,9 +5,10 @@
     {{ if and .Site.Params.startbuttonText .Site.Params.startbuttonLink }}
 		<ul class="actions special">
       <li><a href="{{ .Site.Params.CvButtonLink }}" class="button partial" download>{{ .Site.Params.CvButtonText }}</a></li>
-      <li><a href="{{ .Site.Params.StartbuttonLink }}" class="button primary">{{ .Site.Params.StartbuttonText }}</a></li>
+      <li><a href="{{ .Site.Params.StartbuttonLink }}" class="button primary scrolly">{{ .Site.Params.StartbuttonText }}</a></li>
 		</ul>
     {{ end }}
+    <!--<a href="#one" class="more scrolly">{{ i18n "learnmore" }}</a>-->
 	</div>
-  <a href="#one" class="more scrolly">{{ i18n "learnmore" }}</a>
+      
 </section>
