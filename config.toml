@@ -165,7 +165,7 @@ body = "[TODO]"
 [params.cta]
 enable = true
 title = "Contenu externe"
-body = "Connectez vous avec moi et visité mon ePortfolio officiel de l'ÉTS "
+body = "Connectez-vous avec moi et visitez mes différents contenus externes."
 
 [[params.cta.link]]
 href = "https://www.linkedin.com/in/jean-lamarre/"
