@@ -6,11 +6,11 @@ defaultContentLanguage = "fr"
 theme = "spectral"
 
 [params]
-fancyTitle = '<img height=256 src="images/PHOTO_DEVOLUTIONS(smol).jpg" /><br />Jean Lamarre'
+fancyTitle = '<img height=225 src="images/PHOTO_DEVOLUTIONS(smol).jpg" /><br />Jean Lamarre'
 copyright = "Jean Lamarre"
 description =  '''
-Étudiant en génie logiciel <br />
-<img height=200 src="images/Logo_ETS_TypoBlanche_D_FR.png"/>
+Étudiant en génie logiciel<br />
+<img height=150 src="images/Logo_ETS_TypoBlanche_D_FR.png"/>
 '''
 startbuttonText = "Contacter Jean"
 startbuttonLink = "#contact"
@@ -22,21 +22,25 @@ body_is_markdown = true
 url = '#'
 title = "Accueil"
 
-#[[params.menu.main]]
-#url = '/posts/'
-#title = "template"
+# [[params.menu.main]]
+# url = '/posts/'
+# title = "template"
 
 [[params.menu.main]]
 url = '/projets/'
-title = "Projet personnel"
+title = "Projets personnels"
 
 [[params.menu.main]]
 url = '/club/'
-title = "Activité de club"
+title = "Activitées de club"
 
 [[params.menu.main]]
 url = '/professionnel/'
-title = "Expérience professionnel"
+title = "Expériences professionnelles"
+
+[[params.menu.main]]
+url = '/games/'
+title = "Mes jeux"
 
 [taxonomies]
     tag = "tags"
@@ -71,7 +75,7 @@ label = "Dolor"
 [params.two]
 enable = true
 title = "Quelques jeux!"
-Button = "Tous les jeux"
+Button = "Tous mes jeux"
 ButtonLink = '/games/'
 
 [[params.two.section]]
@@ -169,7 +173,7 @@ special = true
 
 [[params.cta.link]]
 href = "https://eportfolio.etsmtl.ca/Portfolio/Clef/CpsRdS58ZgNz2X0vM33b"
-text = "Portfolio"
+text = "ePortfolio ETS"
 special = true
 
 [params.contact]
