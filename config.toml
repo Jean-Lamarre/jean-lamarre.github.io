@@ -6,11 +6,13 @@ defaultContentLanguage = "fr"
 theme = "spectral"
 
 [params]
-fancyTitle = '<img height=225 src="images/PHOTO_DEVOLUTIONS(smol).jpg"/><br/>Jean Lamarre'
+fancyTitle = '''<img height=400 src="images/PHOTO_DEVOLUTIONS(smol).jpg"/>
+<br> Jean Lamarre 
+'''
 copyright = "Jean Lamarre"
 description =  '''
 Étudiant en génie logiciel<br />
-<img height=150 src="images/Logo_ETS_TypoBlanche_D_FR.png"/>
+<img height=200 src="images/Logo_ETS_TypoBlanche_D_FR.png"/>
 '''
 startbuttonText = "Contacter Jean"
 startbuttonLink = "#contact"
@@ -93,17 +95,19 @@ ButtonLink = '/games/'
 
 [[params.two.section]]
 img = "images/DoggoUntilTomorrowImg.jpg"
+title = "Doggo  Until Tomorrow"
 body = '''
 Dans ce jeu trop mignon, vous devrez aider les petits villageois à se nourrir en leur rapportant 
 leur nourriture préférée! Observez comment ils vous remercieront de leur jolie petite voix!
 
 Faites attention à la tombée du jour par contre...
 
-{{<itchio id = "1377807" square = "false " linkback = "true" dark = "true" color = "2195b2">}}
+{{<itchio id = "1377807" square = "true" linkback = "true" dark = "true" color = "2195b2">}}
 '''
 
 [[params.two.section]]
 img = "images/LostRUsImg.jpg"
+title = "Lost R' Us"
 body = '''
 Shaun et sa mère vont à l’épicerie ensemble.
  Mais malheur! Dans la foulée, le jeune garçon échappe la main de sa mère! 
@@ -111,17 +115,18 @@ Shaun et sa mère vont à l’épicerie ensemble.
  Il doit vite la retrouver, mais comment la retrouver alors que toutes ces dames se ressemblent tellement? 
  Vite!
 
-{{<itchio id = "932135" square = "false " linkback = "true" dark = "true" color = "2195b2">}}
+{{<itchio id = "932135" square = "true" linkback = "true" dark = "true" color = "2195b2">}}
 '''
 
 [[params.two.section]]
 img = "images/HotCocoImg.jpg"
+title  = "Hot Coco"
 body = '''
 Tabascoco mène une vie paisible dans son volcan, bien allongé sous l'ombre de son palmier. Lorsque tout à coup, le volcan entre en éruption!
 
 Pour s'en sortir, Tabascoco devra sauter de plateforme en plateforme avec un moyen de propulsion... peu conventionnel.
 
-{{<itchio id = "757201" square = "false" linkback = "true" dark = "true" color = "2195b2">}}
+{{<itchio id = "757201" square = "true" linkback = "true" dark = "true" color = "2195b2">}}
 '''
 
 [params.three]
