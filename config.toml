@@ -6,13 +6,12 @@ defaultContentLanguage = "fr"
 theme = "spectral"
 
 [params]
-fancyTitle = '''<img height=400 src="images/PHOTO_DEVOLUTIONS(smol).jpg"/>
-<br> Jean Lamarre 
+fancyTitle = '''
+Jean Lamarre 
 '''
 copyright = "Jean Lamarre"
 description =  '''
-Étudiant en génie logiciel<br />
-<img height=200 src="images/Logo_ETS_TypoBlanche_D_FR.png"/>
+Étudiant en génie logiciel
 '''
 startbuttonText = "Contacter Jean"
 startbuttonLink = "#contact"

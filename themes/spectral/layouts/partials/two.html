@@ -1,7 +1,7 @@
 {{ $md := .Site.Params.body_is_markdown | default false }} {{ with
 .Site.Params.two }} {{ if .enable }}
 <section id="two" class="wrapper alt style2">
-  <section id="one" class="wrapper style2 special">
+  <section id="two" class="wrapper style2 special">
     <h2>{{ .title | safeHTML}}</h2>
   </section>
   {{ range .section }}
