@@ -27,20 +27,20 @@ title = "Accueil"
 # title = "template"
 
 [[params.menu.main]]
-url = '/projets/'
-title = "Projets personnels"
-
-[[params.menu.main]]
 url = '/club/'
 title = "Activitées de club"
+
+[[params.menu.main]]
+url = '/games/'
+title = "Mes jeux"
 
 [[params.menu.main]]
 url = '/professionnel/'
 title = "Expériences professionnelles"
 
 [[params.menu.main]]
-url = '/games/'
-title = "Mes jeux"
+url = '/projets/'
+title = "Projets personnels"
 
 [taxonomies]
     tag = "tags"
