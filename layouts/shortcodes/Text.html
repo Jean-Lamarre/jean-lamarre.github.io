@@ -1,0 +1,3 @@
+<a onclick="window.open(this.href,'_blank');return false;" href="{{ .Destination | safeURL }}" {{ with .Title}}
+    title="{{ . }}" {{ end }}{{ if strings.HasPrefix .Destination "http" }} rel="noopener" {{ end }} target="_blank">{{
+    .Text | safeHTML }} </a>

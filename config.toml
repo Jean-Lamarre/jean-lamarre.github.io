@@ -6,9 +6,7 @@ defaultContentLanguage = "fr"
 theme = "spectral"
 
 [params]
-fancyTitle = '''
-Jean Lamarre 
-'''
+fancyTitle = '''Jean Lamarre'''
 copyright = "Jean Lamarre"
 description =  '''
 Étudiant en génie logiciel
@@ -80,16 +78,32 @@ title = "Quelques jeux!"
 Button = "Tous mes jeux"
 ButtonLink = '/games/'
 
-# [[params.two.section]]
-# img = "images/UntitleJanitorGameImg.jpg"
-# body = '''
+[[params.two.section]]
+img = "images/cosmicExpresGamePlay.jpg"
+title = "Cosmic Express"
+body = '''
+Deux joueurs guident un vaisseau  à travers le noyau d'un monde alien. 
+Ils doivent travailler ensemble pour dégager les obstacles du chemin du vaisseau tout en exploitant les ressources nécessaires pour atteindre le prochain monde.
 
-# Vous êtes Sir Géatan de Janitoria et vous devez aider à nettoyer des bureaux!
+Prototype développé dans le cadre du concours universitaire Ubisoft.
 
-# Ce jeu a été fait dans le contexte de projet de classe à l'ÉTS du cours LOG725.
+[http://www.cosmicexpressgame.net](http://www.cosmicexpressgame.net)
 
-# {{<itchio id = "1484491" square = "false" linkback = "true" dark = "true" color = "2195b2">}}
-# '''
+{{<itchio id = "1919252" square = "true" linkback = "true" dark = "true" color = "2195b2">}}
+'''
+
+[[params.two.section]]
+img = "images/UntitleJanitorGameImg.jpg"
+title = "Untitle Janitor Game"
+body = '''
+
+Vous êtes Sir Géatan de Janitoria et vous devez aider à nettoyer des bureaux!
+
+Ce jeu a été fait dans le contexte de projet de classe à l'ÉTS du cours LOG725.
+
+{{<itchio id = "1484491" square = "true" linkback = "true" dark = "true" color = "2195b2">}}
+ 
+'''
 
 
 [[params.two.section]]

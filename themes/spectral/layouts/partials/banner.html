@@ -6,26 +6,18 @@
       <div>{{ .Site.Params.fancytitle | safeHTML }}</div>
     </h2>
     <p>
-        <div>{{ .Site.Params.description | safeHTML }}</div>
-        </br>
-        <img src="images/Logo_ETS_TypoBlanche_D_FR.png" />
+    <div>{{ .Site.Params.description | safeHTML }}</div>
+    </br>
+    <img src="images/Logo_ETS_TypoBlanche_D_FR.png" />
     </p>
     {{ if and .Site.Params.startbuttonText .Site.Params.startbuttonLink }}
     <ul class="actions special">
       <li>
-        <a
-          href="{{ .Site.Params.CvButtonLink }}"
-          class="button partial"
-          download
-          >{{ .Site.Params.CvButtonText }}</a
-        >
+        <a href="{{ .Site.Params.CvButtonLink }}" class="button partial" download>{{ .Site.Params.CvButtonText }}</a>
       </li>
       <li>
-        <a
-          href="{{ .Site.Params.StartbuttonLink }}"
-          class="button primary scrolly"
-          >{{ .Site.Params.StartbuttonText }}</a
-        >
+        <a href="{{ .Site.Params.StartbuttonLink }}" class="button primary scrolly">{{ .Site.Params.StartbuttonText
+          }}</a>
       </li>
     </ul>
     {{ end }}
