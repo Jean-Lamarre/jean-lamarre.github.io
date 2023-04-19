@@ -1,3 +1,6 @@
-<a onclick="window.open(this.href,'_blank');return false;" href="{{ .Destination | safeURL }}" {{ with .Title}}
-    title="{{ . }}" {{ end }}{{ if strings.HasPrefix .Destination "http" }} rel="noopener" {{ end }} target="_blank">{{
+<a href="{{ .Destination | safeURL }}" target="_blank" {{ with .Title}} referrerpolicy="origin"
+    title="{{ . }}" {{ end }}{{ if strings.HasPrefix .Destination "http" }} rel="nofollow noopener" {{ end }}>{{
     .Text | safeHTML }} </a>
+
+
+    <a href="https://jeremielapointe5.wixsite.com/monsite" target="_blank" referrerpolicy="origin" rel="nofollow noopener">Jérémie Lapointe</a>
