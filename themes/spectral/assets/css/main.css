@@ -3743,8 +3743,7 @@ body.is-menu-visible #menu {
   cursor: default;
   height: 150vh;
   min-height: 35em;
-  overflow: auto;
-  overflow-x: auto;
+  overflow: hidden;
   white-space: nowrap;
   position: relative;
   text-align: center;
@@ -3919,6 +3918,7 @@ body.is-preload #banner h2 {
   -ms-transform: scale(0.95);
   transform: scale(0.95);
   opacity: 0;
+  
 }
 
 body.is-preload #banner h2:before,
