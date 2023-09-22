@@ -315,20 +315,20 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 a:link {
-  color: red;
+  color: #d15140;
 }
 a:visited {
-  color: red;
+  color: rgb(0, 140, 255);
 }
-
 a:hover {
-	color: rgb(194, 0, 0);
+  color: #ff6652;
   border-bottom-color: transparent;
 }
 a:active {
-	color:  rgb(194, 0, 0);
-  }
+  color: #fff;
+}
 
 strong,
 b {
@@ -2651,7 +2651,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: #ed4933;
+  background-color: #ef5e4a;
   box-shadow: none !important;
   color: #ffffff !important;
 }
@@ -2661,7 +2661,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #ef5e4a !important;
+  background-color: #4a71ef !important;
 }
 
 input[type="submit"].primary:active,
@@ -2669,7 +2669,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #eb341c !important;
+  background-color: #ef5e4a !important;
 }
 
 input[type="submit"].disabled,
@@ -3641,6 +3641,7 @@ body.is-menu-visible #menu {
   display: block;
   height: inherit;
   line-height: inherit;
+  color: #fff;
 }
 
 @media screen and (max-width: 736px) {
@@ -3918,7 +3919,6 @@ body.is-preload #banner h2 {
   -ms-transform: scale(0.95);
   transform: scale(0.95);
   opacity: 0;
-  
 }
 
 body.is-preload #banner h2:before,
