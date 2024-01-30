@@ -2,17 +2,113 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jean-lamarre.github.io/games/cosmicexpress/</loc>
+    <lastmod>2023-04-15T13:57:03-04:00</lastmod>
+  </url><url>
     <loc>https://jean-lamarre.github.io/</loc>
-    <lastmod>2022-09-28T15:53:54-04:00</lastmod>
+    <lastmod>2023-04-15T13:57:03-04:00</lastmod>
   </url><url>
-    <loc>https://jean-lamarre.github.io/posts/my-first-post/</loc>
-    <lastmod>2022-09-28T15:53:54-04:00</lastmod>
+    <loc>https://jean-lamarre.github.io/games/</loc>
+    <lastmod>2023-04-15T13:57:03-04:00</lastmod>
   </url><url>
-    <loc>https://jean-lamarre.github.io/posts/</loc>
-    <lastmod>2022-09-28T15:53:54-04:00</lastmod>
+    <loc>https://jean-lamarre.github.io/professionnel/bathfitter/</loc>
+    <lastmod>2022-10-05T20:24:51-04:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/professionnel/</loc>
+    <lastmod>2022-10-05T20:24:51-04:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/professionnel/devolutions/</loc>
+    <lastmod>2022-10-05T20:24:37-04:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/professionnel/sherweb/</loc>
+    <lastmod>2022-10-05T20:24:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/club/</loc>
+    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/club/%C3%A9quipederecrutement/</loc>
+    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/games/doggountiltomorrow/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/games/hotcoco/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/games/onepixelremaining/</loc>
+    <lastmod>2022-01-05T11:12:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/games/untitlejanitorgame/</loc>
+    <lastmod>2022-01-05T11:12:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/games/lostrus/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/games/deatheattoo-copy/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/games/deatheattoo/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jean-lamarre.github.io/categories/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/css/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/html/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/posts/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/posts/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/series/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/categories/syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jean-lamarre.github.io/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/categories/themes/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/series/themes-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/posts/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/posts/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/posts/math-typesetting/</loc>
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/posts/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/tags/index/</loc>
+  </url><url>
+    <loc>https://jean-lamarre.github.io/projets/</loc>
   </url>
 </urlset>

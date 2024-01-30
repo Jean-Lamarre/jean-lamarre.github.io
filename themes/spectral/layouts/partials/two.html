@@ -8,15 +8,20 @@
   <section class="spotlight">
     <div class="image"><img src="{{ .img | relURL }}" alt="" /></div>
     <div class="content">
+      <!-- <ul> -->
       <h2>{{ .title | safeHTML }}</h2>
+      <!-- <span class="icon {{ .icon }} major style{{ .style }}">
+          <span class="label">Label</span>
+        </span> -->
+      <!-- </ul> -->
       {{ partial "body_text.html" (dict "context" . "md" $md) }}
     </div>
   </section>
   {{ end }}
 </section>
-  <section class="wrapper style3">
-    <ul class="actions special">
-      <a href="{{ .ButtonLink }}" class="button partial">{{ .Button }}</a>
-    </ul>
-  </section>
-  {{ end }} {{ end }}
+<section class="wrapper style3">
+  <ul class="actions special">
+    <a href="{{ .ButtonLink }}" class="button partial">{{ .Button }}</a>
+  </ul>
+</section>
+{{ end }} {{ end }}

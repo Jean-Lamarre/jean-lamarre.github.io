@@ -9,7 +9,7 @@ theme = "spectral"
 fancyTitle = '''Jean Lamarre'''
 copyright = "Jean Lamarre"
 description =  '''
-Étudiant en génie logiciel
+Finissant en ingénirie logiciel
 '''
 startbuttonText = "Contacter Jean"
 startbuttonLink = "#contact"
@@ -50,8 +50,8 @@ body_is_markdown = true
 enable = true
 title = 'Bienvenue dans mon univers'
 body = '''  
-Étudiant à l'ÉTS, j'ai débuté mon baccalauréat en génie 
-logiciel à l'automne 2019 et j'aspire à devenir un professionnel dynamique,
+Finissant à l'ÉTS, j'ai complété mon baccalauréat en génie 
+logiciel en décembre 2023 et j'aspire à devenir un professionnel dynamique,
 motivant et accompli.
 '''
 
@@ -77,6 +77,26 @@ title = "Mes derniers projets!"
 
 Button = "Tous mes jeux"
 ButtonLink = '/games/'
+
+[[params.two.section]]
+icon = "fa-gamepad"
+img = "images/ArcadeUI.jpg"
+title = "Conjure OS"
+body = '''
+
+Dans le cadre de mon projet de fin d’études, mon équipe et moi avons développer un 
+environnement de type « arcade » permettant l’exécution de jeux vidéo à partir d'une borne d’arcade. 
+
+Ce projet est composé de plusieurs produits logiciels qui ont une relation étroite entre eux.
+- le logiciel de l’arcade lui-même qui exécute les jeux sur l’ordinateur (Sur ce que j'ai travaillé);
+    - Application utilisant le framework QT
+- un service web centralisant les données que l’arcade récupère ;
+- une librairie Unity qui permet d’un côté d’interagir avec le service web ;
+
+[Voir l'application Qt utilisé dans l'arcade sur GitHub](https://github.com/PFE033-ConjureOS/ConjureOS-SoftwareArcade)
+
+
+'''
 
 [[params.two.section]]
 img = "images/cosmicExpresGamePlay.jpg"
