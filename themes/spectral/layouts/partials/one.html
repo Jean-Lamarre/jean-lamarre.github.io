@@ -12,8 +12,8 @@
 		<ul class="icons major">
 			{{ range .icon }}
 			<li>
-				<span class="icon {{ .icon }} major style{{ .style }}">
-					<span class="label">{{ .label }}</span>
+				<span class="icon major">
+					<img src="{{ .img | relURL }}">
 				</span>
 			</li>
 			{{ end }}

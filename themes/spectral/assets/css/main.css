@@ -2216,12 +2216,21 @@ input[type="radio"] + label:before {
   transform: rotate(-45deg);
   border-radius: 3px;
   border: solid 2px #fff;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.35em;
   height: calc(3em + 2px);
   line-height: 3em;
   text-align: center;
   width: calc(3em + 2px);
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 5px 3px;
+}
+
+.icon.major img {
+  transform: rotate(45deg);
+  width: 80%;
+  filter: brightness(100%) saturate(70%) grayscale(5%);
 }
 
 .icon.major:before {
@@ -3980,6 +3989,7 @@ body.is-preload #banner:after {
   #cta .inner header {
     padding-right: 0;
     width: 100%;
+    height: fit-content;
   }
 
   #cta .inner .actions {

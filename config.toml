@@ -59,17 +59,31 @@ motivant et accompli.
 icon = "fa-laptop"
 style = "1"
 label = "Lorem"
-url = "https://github.com/devcows/hugo-universal-theme/issues/127"
+img = "images/csharp.png"
 
 [[params.one.icon]]
 icon = "fa-gamepad"
 style = "2"
 label = "Ipsum"
+img="images/unity.png"
 
 [[params.one.icon]]
 icon = "fa-code"
 style = "3"
 label = "Dolor"
+img="images/sql.png"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "1"
+label = "Dolor"
+img="images/cpp.png"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "2"
+label = "Dolor"
+img="images/python.png"
 
 [params.two]
 enable = true
@@ -162,44 +176,6 @@ Pour s'en sortir, Tabascoco devra sauter de plateforme en plateforme avec un moy
 {{<itchio id = "757201" square = "true" linkback = "true" dark = "true" color = "2195b2">}}
 '''
 
-[params.three]
-enable = false
-title = 'Mes motivations'
-body = '''
-Je suis une personne curieuses qui est allumé par le développement de jeux vidéo, 
-environnement et développement durable.
-'''
-
-[[params.three.feature]]
-icon = "fa-paper-plane-o"
-title = "Arcu accumsan"
-body = "[TODO]"
-
-[[params.three.feature]]
-icon = "fa-laptop"
-title = "Ac Augue Eget"
-body = "[TODO]"
-
-[[params.three.feature]]
-icon = "fa-code"
-title = "Foo bar"
-body = "[TODO]"
-
-[[params.three.feature]]
-icon = "fa-headphones"
-title = "Baz kram"
-body = "[TODO]"
-
-[[params.three.feature]]
-icon = "fa-heart-o"
-title = "Some latin text"
-body = "[TODO]"
-
-[[params.three.feature]]
-icon = "fa-flag-o"
-title = "Nothing important"
-body = "[TODO]"
-
 [params.cta]
 enable = true
 title = "Contenu externe"
@@ -208,11 +184,6 @@ body = "Connectez-vous avec moi et visitez mes différents contenus externes."
 [[params.cta.link]]
 href = "https://www.linkedin.com/in/jean-lamarre/"
 text = "LinkedIn"
-special = true
-
-[[params.cta.link]]
-href = "https://eportfolio.etsmtl.ca/Portfolio/Clef/CpsRdS58ZgNz2X0vM33b"
-text = "ePortfolio ETS"
 special = true
 
 [[params.cta.link]]
