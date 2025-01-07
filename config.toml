@@ -9,7 +9,7 @@ theme = "spectral"
 fancyTitle = '''Jean Lamarre'''
 copyright = "Jean Lamarre"
 description =  '''
-Finissant en ingénierie logiciel
+Bachelier en ingénierie logiciel
 '''
 startbuttonText = "Contacter Jean"
 startbuttonLink = "#contact"
